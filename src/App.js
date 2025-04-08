@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CssBaseline from "@mui/material/CssBaseline";
 import Container from "@mui/material/Container";
 
-import "./Sass/Main/HomePage.scss";
-
 // コンポーネント
 import Header from "./Components/Main/Header";
 import Footer from "./Components/Main/Footer";

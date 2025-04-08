@@ -1,0 +1,7 @@
+@use "./Mixin" as *;
+.button {
+  @include button;
+}
+.menu {
+  margin-bottom: 50px;
+}

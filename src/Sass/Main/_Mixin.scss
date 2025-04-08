@@ -2,3 +2,10 @@
   color: $color;
   text-decoration: none;
 }
+
+@mixin button($color: black) {
+  color: $color;
+  margin-left: 30px;
+  text-align: left; /* ボタン内のテキストを左寄せ */
+  padding: 10px 20px; /* ボタンにパディングを追加 */
+}
