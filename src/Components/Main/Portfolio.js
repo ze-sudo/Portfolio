@@ -348,6 +348,7 @@ function Portfolio() {
         {/* 企画書・資料作成 */}
         <CustomTabPanel value={value} index={2}>
           <Typography variant="h3">企画書・資料作成</Typography>
+          <Typography>＊現在作成中です。</Typography>
           <Divider />
         </CustomTabPanel>
 
@@ -356,6 +357,7 @@ function Portfolio() {
           <Typography variant="h3">
             マーケティング/リサーチ・データ分析
           </Typography>
+          <Typography>＊現在作成中です。</Typography>
           <Divider />
         </CustomTabPanel>
       </Box>

@@ -38,6 +38,10 @@ function Plans() {
   };
   return (
     <React.Fragment>
+      <Typography variant="h2" gutterBottom>
+        ＊現在作成中です。
+      </Typography>
+      <Divider />
       <Typography variant="h1" gutterBottom>
         Plans
       </Typography>
